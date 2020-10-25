@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+}
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    box-shadow: black 2px 2px 2px;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+input:hover {
+    background-color: rgb(204, 201, 201);
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(204, 201, 201);
+}
+
+#botao {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+#resultado {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
